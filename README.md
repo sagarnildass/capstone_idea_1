@@ -3,15 +3,12 @@ Creating accurate machine learning models capable of localizing and identifying
 multiple objects in a single image remains a core challenge in computer vision.
 The TensorFlow Object Detection API is an open source framework built on top of
 TensorFlow that makes it easy to construct, train and deploy object detection
-models.  At Google we’ve certainly found this codebase to be useful for our
-computer vision needs, and we hope that you will as well.
+models.  I am currently training this model with Pascal VOC data.
 <p align="center">
   <img src="image.jpg" width=676 height=450>
 </p>
-Contributions to the codebase are welcome and we would love to hear back from
-you if you find this API useful.  Finally if you use the Tensorflow Object
-Detection API for a research publication, please consider citing:
 
+## References
 ```
 "Speed/accuracy trade-offs for modern convolutional object detectors."
 Huang J, Rathod V, Sun C, Zhu M, Korattikara A, Fathi A, Fischer I, Wojna Z,
@@ -79,26 +76,4 @@ you to try out other detection models!
 
 <b>Thanks to contributors</b>: Jonathan Huang, Andrew Harp
 
-### June 15, 2017
 
-In addition to our base Tensorflow detection model definitions, this
-release includes:
-
-* A selection of trainable detection models, including:
-  * Single Shot Multibox Detector (SSD) with MobileNet,
-  * SSD with Inception V2,
-  * Region-Based Fully Convolutional Networks (R-FCN) with Resnet 101,
-  * Faster RCNN with Resnet 101,
-  * Faster RCNN with Inception Resnet v2
-* Frozen weights (trained on the COCO dataset) for each of the above models to
-  be used for out-of-the-box inference purposes.
-* A [Jupyter notebook](object_detection_tutorial.ipynb) for performing
-  out-of-the-box inference with one of our released models
-* Convenient [local training](g3doc/running_locally.md) scripts as well as
-  distributed training and evaluation pipelines via
-  [Google Cloud](g3doc/running_on_cloud.md).
-
-
-<b>Thanks to contributors</b>: Jonathan Huang, Vivek Rathod, Derek Chow,
-Chen Sun, Menglong Zhu, Matthew Tang, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, Jasper Uijlings,
-Viacheslav Kovalevskyi, Kevin Murphy
