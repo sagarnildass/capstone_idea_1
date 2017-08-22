@@ -54,26 +54,5 @@ Extras:
 * <a href='g3doc/using_your_own_dataset.md'>
       Bringing in your own dataset</a><br>
 
-## Getting Help
-
-Please report bugs to the tensorflow/models/ Github
-[issue tracker](https://github.com/tensorflow/models/issues), prefixing the
-issue name with "object_detection". To get help with issues you may encounter
-using the Tensorflow Object Detection API, create a new question on
-[StackOverflow](https://stackoverflow.com/) with the tags "tensorflow" and
-"object-detection".
-
-## Release information
-
-### August 11, 2017
-
-We have released an update to the [Android Detect
-demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
-which will now run models trained using the Tensorflow Object
-Detection API on an Android device.  By default, it currently runs a
-frozen SSD w/Mobilenet detector trained on COCO, but we encourage
-you to try out other detection models!
-
-<b>Thanks to contributors</b>: Jonathan Huang, Andrew Harp
 
 
