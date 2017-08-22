@@ -1,0 +1,3 @@
+python C:\python_notebooks\Machine_learning_Engineer_Nanodegree\projects\capstone_object_detection_new\Object_detector_app_with_new_environ\object_detection\create_pascal_tf_record.py --data_dir=C:\python_notebooks\Machine_learning_Engineer_Nanodegree\projects\capstone_object_detection_new\Object_detector_app_with_new_environ\VOCdevkit --year=VOC2007 --output_path=C:\python_notebooks\Machine_learning_Engineer_Nanodegree\projects\capstone_object_detection_new\Object_detector_app_with_new_environ\pascal_output\pascal.record --label_map_path=C:\Anaconda3\envs\aind-dog\Lib\site-packages\tensorflow\models\object_detection\data\pascal_label_map.pbtxt
+
+#For test data use the same script ,but add --set=test
